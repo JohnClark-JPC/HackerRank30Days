@@ -13,8 +13,8 @@ namespace hrGenerics
     static void PrintArray<T>(T[] array)
     {
         foreach (T i in array)
-			{
+	{
             Console.WriteLine(i);
-			}
+	}
     }
 }
